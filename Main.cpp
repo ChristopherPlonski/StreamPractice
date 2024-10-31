@@ -71,6 +71,9 @@ void problem_3() {
     cout << "Number of games published in 2017: " << numberOfGamesPublishedIn2017 << endl;
 }
 
+/// <summary>
+/// Count the number of games which contain the word "dragon" in their title (case insensitive).
+/// </summary>
 void problem_4() {
     ifstream tsvFile;
     tsvFile.open("data/video_games.tsv");
